@@ -8,5 +8,18 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class();?>>
+    <header id="main-header">
+        <h1>Safat Alnur</h1>
+        <h2>Full-stack Developer</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 
-<p>This is header</p>
+        <nav id="nav-bar">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#myWork">My Works</a>
+        </nav>
+
+        <div id="social-media">
+
+        </div>
+    </header>
