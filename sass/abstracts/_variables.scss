@@ -2,5 +2,19 @@
 
 $font-primary: 'Novecento Web demiBold';
 $font-sub-heading: 'Novecento Web';
-$font-text: 'Merriweather Web Light';
+$font-text: 'Inter';
 $font-accent: 'Merriweather Web bold';
+
+p {
+    font-family: $font-text, sans-serif;
+    font-size: 20px;
+}
+h1, h2 {
+    font-family: $font-primary, sans-serif;
+}
+h1 {
+    font-size: 64px;
+}
+h2 {
+    font-size: 30px;
+}
